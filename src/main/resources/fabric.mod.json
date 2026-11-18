@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "nearest_structures",
+  "version": "${version}",
+  "name": "Nearest Structures",
+  "description": "Показывает ближайшую структуру выбранного типа: спавнеры, храмы, шахты и др.",
+  "authors": [
+    "you"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.nearest.NearestMod"
+    ],
+    "client": [
+      "com.example.nearest.client.NearestClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
